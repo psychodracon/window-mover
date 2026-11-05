@@ -36,3 +36,7 @@ dotnet run --project WindowMover/WindowMover.csproj
 
 A push to `main` bumps the version, updates `CHANGELOG.md` from the conventional commits and publishes
 the installer as a GitHub release.
+
+## License
+
+Copyright (C) Kamil Ganczarek. Licensed under the GNU General Public License, version 3 or (at your option) any later version. See [LICENSE](LICENSE).
