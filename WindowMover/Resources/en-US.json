@@ -1,0 +1,92 @@
+{
+  "buttons": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "finish": "Finish",
+    "ok": "OK",
+    "record": "Record",
+    "save": "Apply",
+    "setPositions": "Set positions"
+  },
+  "checkboxes": {
+    "alwaysOnTop": "Always on top",
+    "changePosition": "Change position",
+    "changeSize": "Change size",
+    "check": "Check",
+    "checkParent": "Check parent window",
+    "globalHotkey": "Global hotkey",
+    "msTeamsSupport": "Enable Microsoft Teams support (New version only)",
+    "removeBorders": "Remove borders",
+    "setPositions": "Set positions"
+  },
+  "columns": {
+    "active": "Active",
+    "name": "Name"
+  },
+  "dialogs": {
+    "handleDelete": {
+      "message": "Are you sure you want to delete handle?",
+      "noText": "Cancel",
+      "title": "Handle deletion",
+      "yesText": "Delete"
+    },
+    "handleExists": {
+      "message": "Handle with given name already exists!",
+      "okText": "OK",
+      "title": "Handle exists"
+    },
+    "settingsChanged": {
+      "message": "The settings has been changed, do you want to save them?",
+      "noText": "No",
+      "title": "Settings",
+      "yesText": "Yes"
+    },
+    "updateAvailable": {
+      "message": "New application version is available, do you want to update?",
+      "noText": "No",
+      "title": "WindowMover",
+      "yesText": "Yes"
+    }
+  },
+  "labels": {
+    "beginsWith": "Begins with",
+    "contains": "Contains",
+    "edit": "Edit",
+    "endsWith": "Ends with",
+    "equals": "Equals",
+    "handleName": "Handle name",
+    "hotkeySettings": "Hotkey settings",
+    "language": "Language",
+    "modifyWindowParams": "Modify window parameters",
+    "new": "New",
+    "others": "Others",
+    "parent": "Parent",
+    "processName": "Process name",
+    "searchUsingAttributes": "Search using following attributes",
+    "timerSettings": "Timers settings",
+    "toggleCamera": "Toggle camera",
+    "toggleMute": "Toggle mute",
+    "toggleSound": "Toggle sound",
+    "windowClass": "Window class",
+    "windowName": "Window name",
+    "windowPositionRecovery": "Window position recovery frequency"
+  },
+  "menus": {
+    "exit": "Exit",
+    "settings": "Settings"
+  },
+  "others": {
+    "ms": "ms"
+  },
+  "pages": {
+    "handleList": "Handle list",
+    "others": "Others"
+  },
+  "views": {
+    "addHandle": "Add handle",
+    "editHandle": "Edit handle",
+    "settings": "Settings"
+  }
+}

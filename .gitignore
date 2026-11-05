@@ -1,0 +1,10 @@
+/.vs
+/publish
+/Releases
+/WindowMover/bin
+/WindowMover/obj
+/WindowMover/publish
+/WindowMover.UIAutomation.Library/bin
+/WindowMover.UIAutomation.Library/obj
+/WindowMover.UIAutomation.Library/publish
+*.user

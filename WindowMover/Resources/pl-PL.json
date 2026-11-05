@@ -1,0 +1,92 @@
+{
+  "buttons": {
+    "add": "Dodaj",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "finish": "Zakończ",
+    "ok": "OK",
+    "record": "Rejestruj",
+    "save": "Zastosuj",
+    "setPositions": "Pozycjonuj"
+  },
+  "checkboxes": {
+    "alwaysOnTop": "Zawsze na wierzchu",
+    "changePosition": "Zmień pozycję",
+    "changeSize": "Zmień rozmiar",
+    "check": "Sprawdzaj",
+    "checkParent": "Sprawdzaj rodzica",
+    "globalHotkey": "Skrót globalny",
+    "msTeamsSupport": "Włacz wpsarcie dla Microsoft Teams (Tylko nowa wersja)",
+    "removeBorders": "Usuń obramowanie",
+    "setPositions": "Pozycjonuj"
+  },
+  "columns": {
+    "active": "Aktywny",
+    "name": "Nazwa"
+  },
+  "dialogs": {
+    "handleDelete": {
+      "message": "Czy na pewno chcesz usunąć ten zaczep?",
+      "noText": "Anuluj",
+      "title": "Usuwanie zaczepu",
+      "yesText": "Usuń"
+    },
+    "handleExists": {
+      "message": "Zaczep o podanej nazwie już istenieje!",
+      "okText": "OK",
+      "title": "Zaczep istnieje"
+    },
+    "settingsChanged": {
+      "message": "Ustawienia zostały zmienione, czy chcesz je zapisać?",
+      "noText": "Nie",
+      "title": "Ustawienia",
+      "yesText": "Tak"
+    },
+    "updateAvailable": {
+      "message": "Nowa wersja aplikacji jest dostępna, czy chcesz ją zaktualizować?",
+      "noText": "Nie",
+      "title": "WindowMover",
+      "yesText": "Tak"
+    }
+  },
+  "labels": {
+    "beginsWith": "Zaczyna się",
+    "contains": "Zawiera",
+    "edit": "Edytuj",
+    "endsWith": "Kończy się",
+    "equals": "Zgadza się",
+    "handleName": "Nazwa zaczepu",
+    "hotkeySettings": "Ustawienia skrótów klawiszowych",
+    "language": "Język",
+    "modifyWindowParams": "Modyfikuj parametry okna",
+    "new": "Nowy",
+    "others": "Inne",
+    "parent": "Rodzic",
+    "processName": "Nazwa procesu",
+    "searchUsingAttributes": "Szukaj używając poniższych atrybutów",
+    "timerSettings": "Ustawienia czasomierzy",
+    "toggleCamera": "Przełącz kamere",
+    "toggleMute": "Przełącz mikrofon",
+    "toggleSound": "Przełącz dźwięk",
+    "windowClass": "Klasa okna",
+    "windowName": "Nazwa okna",
+    "windowPositionRecovery": "Częstotliwość przywracania pozycji okien"
+  },
+  "menus": {
+    "exit": "Wyjdź",
+    "settings": "Ustawienia"
+  },
+  "others": {
+    "ms": "ms"
+  },
+  "pages": {
+    "handleList": "Lista zaczepów",
+    "others": "Inne"
+  },
+  "views": {
+    "addHandle": "Dodaj zaczep",
+    "editHandle": "Edytuj zaczep",
+    "settings": "Ustawienia"
+  }
+}

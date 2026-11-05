@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WindowMover.UIAutomation.Library/WindowMover.UIAutomation.Library.csproj" />
+  <Project Path="WindowMover/WindowMover.csproj" />
+</Solution>
