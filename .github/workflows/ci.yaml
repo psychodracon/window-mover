@@ -93,13 +93,3 @@ jobs:
           VERSION: ${{ steps.version.outputs.version }}
           GH_TOKEN: ${{ github.token }}
         run: dotnet vpk upload github --repoUrl "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}" --token "$GH_TOKEN" --tag "v${VERSION}" --releaseName "v${VERSION}" --publish
-
-      - name: Notify
-        if: failure()
-        uses: psychodracon/github-workflows/.github/actions/notify@v1
-        with:
-          status: ${{ job.status }}
-          version: ${{ steps.version.outputs.version }}
-          token: ${{ secrets.PUSHOVER_API_TOKEN }}
-          user: ${{ secrets.PUSHOVER_USER_KEY }}
-          devices: ${{ secrets.PUSHOVER_DEVICES }}
