@@ -82,7 +82,7 @@ jobs:
         run: |
           dotnet publish WindowMover/WindowMover.csproj -c Release --sc -r win-x64 -o publish
           dotnet tool restore
-          dotnet vpk download github --repoUrl "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}" --token "$GH_TOKEN" || echo "::notice::No previous release to download"
+          dotnet vpk download github --repoUrl "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}" --token "$GH_TOKEN"
           dotnet vpk pack --packId WindowMover --packVersion "$VERSION" --packDir publish --mainExe WindowMover.exe --releaseNotes "$RUNNER_TEMP/notes.md"
 
       - name: Repo / Commit and tag version
