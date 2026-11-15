@@ -86,6 +86,7 @@ jobs:
           dotnet vpk pack --packId WindowMover --packVersion "$VERSION" --packDir publish --mainExe WindowMover.exe --releaseNotes "$RUNNER_TEMP/notes.md"
 
       - name: Repo / Commit and tag version
+        id: release
         if: steps.ci.outputs.publish == 'true'
         uses: psychodracon/github-workflows/.github/actions/git-release@v1
         with:
@@ -94,7 +95,7 @@ jobs:
 
       # vpk uploads only this version's assets, with the release notes embedded by pack.
       - name: Release / GitHub release
-        if: steps.ci.outputs.publish == 'true'
+        if: steps.ci.outputs.publish == 'true' && steps.release.outputs.released == 'true'
         env:
           VERSION: ${{ steps.version.outputs.version }}
           GH_TOKEN: ${{ github.token }}
