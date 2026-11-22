@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.0.1](https://github.com/psychodracon/window-mover/releases/tag/v1.0.1) - 2026-11-22
+
+[v1.0.0...v1.0.1](https://github.com/psychodracon/window-mover/compare/v1.0.0...v1.0.1)
+
+### Dependencies
+
+- Pin dependencies ([f970172](https://github.com/psychodracon/window-mover/commit/f9701726126bee5b6400e36ef7c6563ccf7e5b24))
+- Update dependency dotnet-sdk to v10.0.404 ([fd9a1c5](https://github.com/psychodracon/window-mover/commit/fd9a1c5c1532f471fc4640deec62761f8367608d))
+
+### Documentation
+
+- Add README and AGENTS.md ([3033bf9](https://github.com/psychodracon/window-mover/commit/3033bf9ab47811874dca9366e24dbb9a56b2bbfd))
+- Add GPL-3.0 license ([f289968](https://github.com/psychodracon/window-mover/commit/f289968225bee5c17e98519a823c4566d27de7c0))
+- Rewrite AGENTS.md ([b746a47](https://github.com/psychodracon/window-mover/commit/b746a474ab1b7b60508d22e1f43fda73358aafbd))
+- Rewrite README ([7959508](https://github.com/psychodracon/window-mover/commit/79595080f8870d61075decc79d60d21d866c0336))
+
 ## [1.0.0](https://github.com/psychodracon/window-mover/releases/tag/v1.0.0) - 2026-11-05
 
 ### Initial commit
