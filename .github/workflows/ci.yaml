@@ -41,7 +41,7 @@ jobs:
         uses: psychodracon/github-workflows/.github/actions/publish-check@v1
 
       - name: Setup / Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           ref: ${{ steps.ci.outputs.ref }}
           fetch-depth: 0
@@ -60,7 +60,7 @@ jobs:
 
       - name: Release / Changelog
         if: steps.ci.outputs.publish == 'true'
-        uses: orhun/git-cliff-action@v4.9.1
+        uses: orhun/git-cliff-action@a9a95522b26fe6403f7bb24031f21fb573d0f5ff # v4.9.1
         with:
           args: --tag v${{ steps.version.outputs.version }}
         env:
@@ -68,7 +68,7 @@ jobs:
 
       - name: Release / Notes
         if: steps.ci.outputs.publish == 'true'
-        uses: orhun/git-cliff-action@v4.9.1
+        uses: orhun/git-cliff-action@a9a95522b26fe6403f7bb24031f21fb573d0f5ff # v4.9.1
         with:
           args: --tag v${{ steps.version.outputs.version }} --unreleased --strip header
         env:
